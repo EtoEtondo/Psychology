@@ -1,0 +1,31 @@
+<!--https://www.youtube.com/watch?v=p3f5X2duLO4-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="Colorgame.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>ColorGame</title>
+</head>
+<body>
+  <h2 id="task">Wähle das Feld mit der Farbe des Textes</h2>
+  <div class="top">
+    <button id="start" onclick="startGame()">Start</button>
+    <div id="color" class="colorText color"></div>
+  </div>
+
+  <div class="bottom">
+      <button id="Red" class="btn"></button>
+      <button id="Blue" class="btn"></button>
+      <button id="Yellow" class="btn"></button>
+      <button id="Green" class="btn"></button>
+  </div>
+
+  <div id="information">
+    <span id="correct"></span>
+    <span id="count"></span>
+    <span id="time"></span>
+  </div>
+</body>
+</html>
